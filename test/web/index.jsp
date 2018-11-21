@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  hello world 212
+  hello world
   </body>
 </html>

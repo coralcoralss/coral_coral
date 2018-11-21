@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f01fd0-24b4-4c5c-8c6a-49af6b92fbbf" name="Default Changelist" comment="部署项目">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/test_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/web/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0f01fd0-24b4-4c5c-8c6a-49af6b92fbbf" name="Default Changelist" comment="部署项目" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +61,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="371">
               <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
@@ -283,12 +279,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542786817774</updated>
       <workItem from="1542786826048" duration="17000" />
-      <workItem from="1542787307379" duration="984000" />
+      <workItem from="1542787307379" duration="2300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1001000" />
+    <option name="totallyTimeSpent" value="2317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,7 +318,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.46885246" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9409836" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -371,7 +367,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="371">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
