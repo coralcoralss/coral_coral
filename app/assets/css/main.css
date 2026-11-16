@@ -1,0 +1,63 @@
+:root {
+  --ink: #0b1f2a;
+  --ink-soft: #1a3a4a;
+  --foam: #e8f4f2;
+  --mist: #a8c5c0;
+  --teal: #1f6f6a;
+  --teal-bright: #2a9b94;
+  --amber: #e8a23a;
+  --amber-hot: #f0b85a;
+  --coral: #d4634a;
+  --ring: rgba(232, 162, 58, 0.35);
+  --glass: rgba(11, 31, 42, 0.55);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__nuxt {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--foam);
+  font-family: 'Manrope', sans-serif;
+  background:
+    radial-gradient(1200px 700px at 15% -10%, rgba(42, 155, 148, 0.28), transparent 55%),
+    radial-gradient(900px 600px at 90% 10%, rgba(232, 162, 58, 0.18), transparent 50%),
+    radial-gradient(800px 500px at 50% 100%, rgba(212, 99, 74, 0.12), transparent 55%),
+    linear-gradient(165deg, #06131a 0%, #0b1f2a 42%, #12303a 100%);
+  background-attachment: fixed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.28s var(--ease-out), transform 0.28s var(--ease-out);
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(8px);
+}
